@@ -1,0 +1,46 @@
+.wrapper {
+  background-color: lightseagreen;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  width: 40rem;
+  align-items: center;
+  padding: 3rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  color: white;
+}
+
+.quote {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 3rem;
+}
+
+.btn {
+  border: none;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: white;
+  color: rgb(7, 77, 74);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(7, 77, 74);
+  color: white;
+}
